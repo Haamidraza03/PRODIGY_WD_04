@@ -6,6 +6,7 @@ import aecs from './images/aecs.jpeg';
 import sjcem from './images/sjcem.jpg';
 import task03 from './images/task03.png';
 import stopwath from './images/Stopwatch.png';
+import task05 from './images/task05.png';
 import beybladers from './images/beybladers.png';
 import housyy from './images/housyy.png';
 import studybuddy from './images/study-buddy.png';
@@ -183,6 +184,13 @@ function Home() {
 
     <div className="row px-3 justify-content-evenly">
 
+    <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+            <img src={task05} alt="Weather App" className="img-fluid rounded-3 my-2 mb-3" />
+            <center><h4 className="mb-4">Weather App</h4></center>
+            <p className="par bg-scroll rounded-3 p-2">I created this webpage for Task-05 as a web development intern at Prodigy Info Tech. I used HTML, CSS, Javascript and Bootstrap to develop this webpage.</p>
+            <center><a href="https://weather24.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-3 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+        </div>
+
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
             <img src={task03} alt="Tic-Tac-Toe" className="img-fluid rounded-3 my-2 mb-3" />
             <center><h4 className="mb-4">Tic Tac Toe Game</h4></center>
@@ -243,7 +251,7 @@ function Home() {
             <img src={hrkfit} alt="HRKFIT" className="img-fluid rounded-3 my-2 mb-3" />
             <center><h4 className="mb-4">HRKFIT</h4></center>
             <p className="par bg-scroll rounded-3 p-2">I created this website as an Internship Project at CodingWiz. Its a Gym Website. I used HTML, CSS, JavaScript and Bootstrap to create this website.</p>
-            <center><a href="https://hrkfit.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-3 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+            <center><a href="https://hrkfit.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
         </div>
 
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
@@ -264,7 +272,7 @@ function Home() {
             <img src={pfl} alt="Portfolio-light" className="img-fluid rounded-3 my-2 mb-3" />
             <center><h4 className="mb-2">My Portfolio</h4></center>
             <p className="par bg-scroll rounded-3 p-2">This is my Portfolio. I made this as a portfolio project for my frontend development class. I made this using HTML, CSS, JavaScript and Bootstrap.</p>
-            <center><a href="https://portfoliohrk.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-3 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+            <center><a href="https://portfoliohrk.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
         </div>
 
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
@@ -285,7 +293,7 @@ function Home() {
             <img src={benverse} alt="Benverse" className="img-fluid rounded-3 my-2 mb-4" />
             <center><h4 className="mb-3">Benverse</h4></center>
             <p className="par bg-scroll rounded-3 p-2">I created this site as a CSS project for my Frontend development class. Its made from HTML and CSS. I hosted this site on vercel.</p>
-            <center><a href="https://benverse.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+            <center><a href="https://benverse.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-5 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
         </div>
 
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
@@ -313,7 +321,7 @@ function Home() {
             <img src={mfp} alt="My First Page" className="img-fluid rounded-3 mb-2" />
             <center><h4 className="mb-1">My First Page</h4></center>
             <p className="par bg-scroll rounded-3 p-2">This is a simple website created with HTML, CSS and JavaScript. I made this after attending a Masterclass.</p>
-            <center><a href="https://haamidraza03.github.io/My-first-page/" target="_blank" rel="noreferrer"><div className="btn mt-3 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+            <center><a href="https://haamidraza03.github.io/My-first-page/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
         </div>
 
     </div>
