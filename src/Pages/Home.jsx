@@ -7,11 +7,13 @@ import sjcem from './images/sjcem.jpg';
 import task03 from './images/task03.png';
 import stopwath from './images/Stopwatch.png';
 import task05 from './images/task05.png';
+import calci from './images/simp-cal.png';
 import beybladers from './images/beybladers.png';
 import housyy from './images/housyy.png';
 import studybuddy from './images/study-buddy.png';
 import recamovies from './images/recamovies.png';
 import tictactoe from './images/tic-tac-toe.png';
+import blog from './images/blog.png';
 import travebai from './images/TraveBai.png';
 import hrkfit from './images/HRKFIT.png';
 import farmhelp from './images/Farmhelp.png';
@@ -184,11 +186,18 @@ function Home() {
 
     <div className="row px-3 justify-content-evenly">
 
-    <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+        <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
             <img src={task05} alt="Weather App" className="img-fluid rounded-3 my-2 mb-3" />
             <center><h4 className="mb-4">Weather App</h4></center>
             <p className="par bg-scroll rounded-3 p-2">I created this webpage for Task-05 as a web development intern at Prodigy Info Tech. I used HTML, CSS, Javascript and Bootstrap to develop this webpage.</p>
             <center><a href="https://weather24.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-3 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+        </div>
+
+        <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+            <img src={calci} alt="Simple Calculator" className="img-fluid rounded-3 my-2 mb-3" />
+            <center><h4 className="mb-4">Simple Calculator</h4></center>
+            <p className="par bg-scroll rounded-3 p-2">I created this as a cloud computing mini project at my college. We hosted this Amazon AWS Amplify. I created this using ReactJS and React-Bootstrap. I also hosted this on <a href="https://simp-cal.vercel.app" target='_blank' rel='noreferrer'>Vercel</a>.</p>
+            <center><a href="https://main.d39hb9cg0c6zsd.amplifyapp.com/" target="_blank" rel="noreferrer"><div className="btn mt-3 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
         </div>
 
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
@@ -241,6 +250,13 @@ function Home() {
         </div>
 
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+            <img src={blog} alt="NPCIL Internship Blog" className="img-fluid rounded-3 my-2 mb-3" />
+            <center><h4 className="mb-2">My First Blog Post</h4></center>
+            <p className="par bg-scroll rounded-3 p-2">I created this blog post on Wordpress. During my internship at NPCIL we were told to make blogs of each and every day of what we are learning, so that all information is here.</p>
+            <center><a href="https://haamidraza037.wordpress.com/" target="_blank" rel="noreferrer"><div className="btn mt-4 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+        </div>
+
+        <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
             <img src={travebai} alt="Travebai" className="img-fluid rounded-3 my-2 mb-3" />
             <center><h4 className="mb-2">TraveBai</h4></center>
             <p className="par bg-scroll rounded-3 p-2">I created this website as an Internship Project at CodingWiz. Its a Tours and Travels Website. I used HTML, CSS, JavaScript and Bootstrap to create this website.</p>
@@ -258,14 +274,14 @@ function Home() {
             <img src={farmhelp} alt="Farmhelp" className="img-fluid rounded-3 my-2 mb-3" />
             <center><h4 className="mb-2">Farmhelp</h4></center>
             <p className="par bg-scroll rounded-3 p-2">I created this Web Application as a Mini - Project in Second Year in my College. I made this Web Application using HTML, CSS, Bootstrap, Javascript and Python. I have added OTP verification also in it when user sign in.</p>
-            <center><a href="https://farmhelp.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-3 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+            <center><a href="https://farmhelp.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
         </div>
 
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
             <img src={marvelz} alt="Marvelz" className="img-fluid rounded-3 my-2 mb-3" />
             <center><h4 className="mb-2">Marvelz</h4></center>
             <p className="par bg-scroll rounded-3 p-2">I created this site as my Hackathon Project for my Frontend Development classes. It was fun making this site. It took me 6 and a half hours to make this, and hackathon was of 7 hours.</p>
-            <center><a href="https://marvelz.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-3 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+            <center><a href="https://marvelz.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
         </div>
 
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
@@ -293,7 +309,7 @@ function Home() {
             <img src={benverse} alt="Benverse" className="img-fluid rounded-3 my-2 mb-4" />
             <center><h4 className="mb-3">Benverse</h4></center>
             <p className="par bg-scroll rounded-3 p-2">I created this site as a CSS project for my Frontend development class. Its made from HTML and CSS. I hosted this site on vercel.</p>
-            <center><a href="https://benverse.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-5 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+            <center><a href="https://benverse.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
         </div>
 
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
