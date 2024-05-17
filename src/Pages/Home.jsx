@@ -225,9 +225,9 @@ function Home() {
             <img src={housyy} alt="Housyy" className="img-fluid rounded-3 my-2 mb-3" />
             <center><h4>Housyy - House Service Providers</h4></center>
             <p className="par bg-scroll rounded-3 p-2">I created this web application as a Third Year mini project in my college. This is a house service providing web application. I made this using ReactJS and Bootstrap.</p>
-            <center><a href="https://housyy24.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 w-50 rounded-pill">In Progress</div></a></center>
+            <center><a href="https://housyy24.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-4 w-50 rounded-pill">In Progress</div></a></center>
         </div>
-
+        
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
             <img src={studybuddy} alt="Study Buddy" className="img-fluid rounded-3 my-2 mb-3" />
             <center><h4 className="mb-4">Study Buddy</h4></center>
