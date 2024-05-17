@@ -79,10 +79,10 @@ function Home() {
             <img src={myimg} alt="my pic" id='myimg' className="img-fluid mt-4 shadow rounded-circle justify-content-center" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="ease-in-out" />
         </div>
         <div className="col-md-5 text-white align-self-center">
-            <p style={{ color: "rgb(0, 178, 248)" }} className="mb-0 fs-5" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Heyy, I am</p>
+            <p className="mb-0 fs-5 text-info" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Heyy, I am</p>
             <p className='fs-1 m-0' data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Haamid Raza Kazi</p>
             <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-4">A passionate Web Developer and a 3rd Year Computer Engineering Student who works in technologies like HTML, CSS, JavaScript, Bootstrap and MERN stack.</p>
-            <a href="https://drive.google.com/file/d/1LIK-PqHBOrUCLjdsOY4GQbQO7WyZPpds/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-5" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My Resume/CV</button></a>
+            <a href="https://drive.google.com/file/d/1Kyn63nvlEUX54Cz56OiOC_gavshav_EI/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-5" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My Resume/CV</button></a>
         </div>
     </div>
 
@@ -109,7 +109,7 @@ function Home() {
             <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-5">I can handle projects related to Frontend Development. If I talk about complexity of the project then it can range from easy to intermediate type of projects. </p>
 
             <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-5">I have created some projects using technologies like HTML , CSS , Javascript , Bootstrap, NodeJS, ReactJS and MERN stack. Currently I'm nourishing my skills more in Full Stack Development.</p>
-            <a href="#projects"><div className="btn btn-outline-info fs-5" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check my Projects</div></a>
+            <a href="#projects"><div className="btn btn-outline-info fs-5 mb-3" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check my Projects</div></a>
         </div>
     </div>
     {/* about end */}
@@ -225,7 +225,7 @@ function Home() {
             <img src={housyy} alt="Housyy" className="img-fluid rounded-3 my-2 mb-3" />
             <center><h4>Housyy - House Service Providers</h4></center>
             <p className="par bg-scroll rounded-3 p-2">I created this web application as a Third Year mini project in my college. This is a house service providing web application. I made this using ReactJS and Bootstrap.</p>
-            <center><a href="https://housyy.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+            <center><a href="https://housyy24.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 w-50 rounded-pill">In Progress</div></a></center>
         </div>
 
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">

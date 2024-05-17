@@ -7,6 +7,18 @@ import Home from '../src/Pages/Home';
 import Contact from '../src/Pages/Contact';
 
 function App() {
+  useEffect(() => {
+    const handleRightClick = (e) => {
+      e.preventDefault();
+    }
+
+    document.addEventListener('contextmenu', handleRightClick);
+    
+    return () => {
+      document.removeEventListener('contextmenu', handleRightClick);
+    }
+  }, []);
+
   useEffect(()=>{
     AOS.init({once:"true"});
   },[])
