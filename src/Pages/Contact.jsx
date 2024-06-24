@@ -46,7 +46,7 @@ function Contact() {
     <div>
         <Navbarcon />
         <ParticleContainer/>
-        <div style={{marginTop:"80px"}}>
+        <div style={{marginTop:"80px"}} id='contact'>
             <div className="container-fluid">
               <div className="row justify-content-center align-content-center">
                 <div className="col-md-10 px-3 py-0 mapbox">

@@ -33,7 +33,7 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Link to="/" className='fs-5 nav-link active me-2'>Home</Link>
+            <Nav.Link href='#home' className='fs-5 nav-link active me-2'>Home</Nav.Link>
             <Nav.Link href='#about' className='fs-5 nav-link active me-2'>About</Nav.Link>
             <Nav.Link href='#skills' className='fs-5 nav-link active me-2'>Skills</Nav.Link>
             <Nav.Link href='#exp' className='fs-5 nav-link active me-2'>Experience</Nav.Link>

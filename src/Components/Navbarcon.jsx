@@ -35,7 +35,7 @@ function BasicExample() {
           <Nav className="ms-auto">
             <Link to="/" className='fs-5 nav-link active me-2'>Home</Link>
             <Nav.Link href='https://github.com/Haamidraza03' target='_blank' rel="noreferrer" className='fs-5 nav-link active me-2'>Github</Nav.Link>
-            <Link to="/contact" className='fs-5 nav-link active me-3'>Contact</Link>
+            <Nav.Link href='#contact' className='fs-5 nav-link active me-3'>Contact</Nav.Link>
             <Form className="d-flex">
               <Button variant="outline-info" href='tel:+91 942-267-1453' className='btn px-3 fs-5'>Call Me</Button>
             </Form>
