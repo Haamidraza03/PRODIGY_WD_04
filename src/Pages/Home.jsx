@@ -82,7 +82,7 @@ function Home() {
             <p className="mb-0 fs-5 text-info" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Heyy, I am</p>
             <p className='fs-1 m-0' data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Haamid Raza Kazi</p>
             <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-4">A passionate Web Developer and a Final Year Computer Engineering Student who works in technologies like HTML, CSS, JavaScript, Bootstrap and MERN stack.</p>
-            <a href="https://drive.google.com/file/d/1KtQdAG301pWYs1jcegpFBqB7Cuutzsra/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-5" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My Resume/CV</button></a>
+            <a href="https://drive.google.com/file/d/1outnB6YIHOhwkuq92sR4Qbk1zSLvL6Q5/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-5" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My Resume/CV</button></a>
         </div>
     </div>
 
