@@ -7,6 +7,9 @@ import sjcem from './images/sjcem.jpg';
 import task03 from './images/task03.png';
 import stopwath from './images/Stopwatch.png';
 import dt from './images/dost-trust.png';
+import ac from './images/agecalci.png';
+import hrkm from './images/hrkmusic.png';
+import hrkl from './images/hrklib.png';
 import task05 from './images/task05.png';
 import calci from './images/simp-cal.png';
 import beybladers from './images/beybladers.png';
@@ -47,6 +50,20 @@ import { SiFirebase } from "react-icons/si";
 
 function Home() {
     const experiences = [
+        // {
+        //     companyName: 'Ceres Canopus Pvt Ltd',
+        //     title: 'Frontend Developer',
+        //     description1: 'This was a one month online internship in which i had to complete a project while leading a team of three people, using frontend technologies like HTML, CSS, JavaScript and Bootstrap.',
+        //     description2: 'My team and I created the project which was assigned for the internship, it was a great learning, collaborating and developing Experience. And i hosted the project on Vercel so that everyone can see our exceptional work of the internship.',
+        //     date: 'September 2024'
+        // },
+        {
+            companyName: 'CodeAlpha',
+            title: 'Frontend Development Intern',
+            description1: 'This was a three months online internship in which i had to complete total 3 tasks using the frontend languages like HTML, CSS, JavaScript and Bootstrap.',
+            description2: 'I created all the 3 tasks which was assigned for the internship, it was a great learning and developing Experience. And i hosted all the tasks on Vercel so that everyone can see my exceptional work in the internship.',
+            date: 'June 2024 - September 2024'
+        },
         {
           companyName: 'Prodigy Info Tech',
           title: 'Frontend Development Intern',
@@ -59,7 +76,7 @@ function Home() {
           title: 'Project Trainee',
           description1: 'This was a one month on-site internship in which i learned about Cybersecurity and Networking, also i was give a task to create a web page for their TMS Network Schema.',
           description2: 'It was a great Workplace Experience, i learned a lot from my mentors and understood the importance of networks, communication, cybersecurity and work culture.',
-          date: 'June 2023 - June 2023'
+          date: 'June 2023'
         },
         {
             companyName: 'CodingWiz',
@@ -83,8 +100,7 @@ function Home() {
             <p className="mb-0 fs-5 text-info" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Heyy, I am</p>
             <p className='fs-1 m-0' data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Haamid Raza Kazi</p>
             <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-4 m-0">A passionate Web Developer and a Final Year Computer Engineering Student who works in technologies like HTML, CSS, JavaScript, Bootstrap and MERN stack.</p>
-            <a href="https://drive.google.com/file/d/1ai6ZSn4Hs9ODVQZnDtE7H6RXZ0uqhbE_/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-5 mt-2 ms-2" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My Resume/CV</button></a>
-            <a href="https://drive.google.com/file/d/1C7O9kzvyYV355QVj2t0Q_5Fiaue8s7bi/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-5 mt-2 ms-2" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My ATS Resume/CV</button></a>
+            <a href="https://drive.google.com/file/d/18FoOYhsXu9L2wS1b53_ZAk2_kqV7uW0A/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-5 mt-2 ms-2" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My ATS Resume/CV</button></a>
         </div>
     </div>
 
@@ -124,21 +140,21 @@ function Home() {
     </div>
 
     <div className='row justify-content-evenly mb-3 py-2 px-2'>
-        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out"><FaHtml5 className='text-danger fs-1' title='HTML' /><div>HTML</div></div>
-        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="1300" data-aos-easing="ease-in-out"><FaCss3Alt className='text-info fs-1' title='CSS' /><div>CSS</div></div>
-        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out"><SiJavascript className='text-warning fs-1' title='JavaScript' /><div>JavaScript</div></div>
-        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="1700" data-aos-easing="ease-in-out"><FaBootstrap style={{color:"blueviolet"}} className='fs-1' title='Bootstrap' /><div>Bootstrap</div></div>
-        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out"><FaGitAlt className='fs-1' style={{color:"orangered"}} title='Git' /><div>Git</div></div>
-        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out"><FaGithub className='text-secondary fs-1' title='Github' /><div>Github</div></div>
-        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out"><FaReact className='text-info fs-1' title='ReactJS' /><div>ReactJS</div></div>
-        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out"><DiNodejs className='text-success fs-1' title='NodeJS' /><div>NodeJS</div></div>
-        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2300" data-aos-easing="ease-in-out"><SiMongodb className='text-success fs-1' title='MongoDB' /><div>MongoDB</div></div>
-        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2900" data-aos-easing="ease-in-out"><SiFirebase className='text-warning fs-1' title='Firebase' /><div>Firebase</div></div>
-        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out"><img src={c} className='img-fluid' width={45} alt="C" title='C' /><div>C</div></div>
-        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out"><img src={cpp} className='img-fluid' width={45} alt="C++" title='C++' /><div>C++</div></div>
-        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out"><FaJava className='text-warning fs-1' title='Java' /><div>Java</div></div>
-        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2700" data-aos-easing="ease-in-out"><FaPython className='text-primary fs-1' title='Python' /><div>Python</div></div>
-        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2900" data-aos-easing="ease-in-out"><BiLogoPostgresql className='text-secondary fs-1' title='SQL' /><div>SQL</div></div>
+        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out"><FaHtml5 className='text-danger fs-1' title='HTML' /><div className='fs-5'>HTML</div></div>
+        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="1300" data-aos-easing="ease-in-out"><FaCss3Alt className='text-info fs-1' title='CSS' /><div className='fs-5'>CSS</div></div>
+        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out"><SiJavascript className='text-warning fs-1' title='JavaScript' /><div className='fs-5'>JavaScript</div></div>
+        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="1700" data-aos-easing="ease-in-out"><FaBootstrap style={{color:"blueviolet"}} className='fs-1' title='Bootstrap' /><div className='fs-5'>Bootstrap</div></div>
+        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out"><FaGitAlt className='fs-1' style={{color:"orangered"}} title='Git' /><div className='fs-5'>Git</div></div>
+        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out"><FaGithub className='text-secondary fs-1' title='Github' /><div className='fs-5'>Github</div></div>
+        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out"><FaReact className='text-info fs-1' title='ReactJS' /><div className='fs-5'>ReactJS</div></div>
+        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out"><DiNodejs className='text-success fs-1' title='NodeJS' /><div className='fs-5'>NodeJS</div></div>
+        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2300" data-aos-easing="ease-in-out"><SiMongodb className='text-success fs-1' title='MongoDB' /><div className='fs-5'>MongoDB</div></div>
+        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2900" data-aos-easing="ease-in-out"><SiFirebase className='text-warning fs-1' title='Firebase' /><div className='fs-5'>Firebase</div></div>
+        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out"><img src={c} className='img-fluid' width={45} alt="C" title='C' /><div className='fs-5'>C</div></div>
+        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out"><img src={cpp} className='img-fluid' width={45} alt="C++" title='C++' /><div className='fs-5'>C++</div></div>
+        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out"><FaJava className='text-warning fs-1' title='Java' /><div className='fs-5'>Java</div></div>
+        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2700" data-aos-easing="ease-in-out"><FaPython className='text-primary fs-1' title='Python' /><div className='fs-5'>Python</div></div>
+        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2900" data-aos-easing="ease-in-out"><BiLogoPostgresql className='text-secondary fs-1' title='SQL' /><div className='fs-5'>SQL</div></div>
     </div>
     {/* skills ends  */}
     
@@ -187,6 +203,27 @@ function Home() {
     </div>
 
     <div className="row px-3 justify-content-evenly">
+
+        <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+            <img src={hrkl} alt="HRK Library" className="img-fluid rounded-3 my-2 mb-3" />
+            <center><h4 className="mb-4">HRK Library</h4></center>
+            <p className="par bg-scroll rounded-3 p-2">I created this website for my internship at CodeAlpha as a Frontend Development Intern. I used HTML, CSS, Javascript and Bootstrap to develop this website.</p>
+            <center><a href="https://hrklibrary.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-3 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+        </div>
+
+        <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+            <img src={hrkm} alt="HRKMusic" className="img-fluid rounded-3 my-2 mb-4" />
+            <center><h4 className="mb-4">HRKMusic</h4></center>
+            <p className="par bg-scroll rounded-3 p-2">I created this website for my internship at CodeAlpha as a Frontend Development Intern. I used HTML, CSS, Javascript and Bootstrap to develop this website.</p>
+            <center><a href="https://hrkmusic.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-3 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+        </div>
+
+        <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+            <img src={ac} alt="Age Calculator" className="img-fluid rounded-3 my-2 mb-3" />
+            <center><h4 className="mb-4">Age Calculator</h4></center>
+            <p className="par bg-scroll rounded-3 p-2">I created this website for my internship at CodeAlpha as a Frontend Development Intern. I used HTML, CSS, Javascript and Bootstrap to develop this website.</p>
+            <center><a href="https://agecalci24.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-3 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+        </div>
 
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
             <img src={dt} alt="Dost Trust" className="img-fluid rounded-3 my-2 mb-3" />
