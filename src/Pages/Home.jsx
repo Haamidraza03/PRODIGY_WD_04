@@ -10,6 +10,7 @@ import dt from './images/dost-trust.png';
 import ac from './images/agecalci.png';
 import hrkm from './images/hrkmusic.png';
 import hrkl from './images/hrklib.png';
+import webcode from './images/webcode.png';
 import task05 from './images/task05.png';
 import calci from './images/simp-cal.png';
 import beybladers from './images/beybladers.png';
@@ -50,13 +51,13 @@ import { SiFirebase } from "react-icons/si";
 
 function Home() {
     const experiences = [
-        // {
-        //     companyName: 'Ceres Canopus Pvt Ltd',
-        //     title: 'Frontend Developer',
-        //     description1: 'This was a one month online internship in which i had to complete a project while leading a team of three people, using frontend technologies like HTML, CSS, JavaScript and Bootstrap.',
-        //     description2: 'My team and I created the project which was assigned for the internship, it was a great learning, collaborating and developing Experience. And i hosted the project on Vercel so that everyone can see our exceptional work of the internship.',
-        //     date: 'September 2024'
-        // },
+        {
+            companyName: 'Ceres Canopus Pvt Ltd',
+            title: 'Frontend Developer & Team Leader',
+            description1: 'This was a one month online internship in which i had to develop an Online Code Editor while leading a team of three members, using frontend technologies like HTML, CSS, JavaScript and Bootstrap.',
+            description2: 'My team and I created the Online Code Editor which was assigned us for the internship, it was a great learning, collaborating and developing Experience. And i hosted the project on Vercel so that everyone can see our exceptional work of the internship.',
+            date: 'September 2024'
+        },
         {
             companyName: 'CodeAlpha',
             title: 'Frontend Development Intern',
@@ -100,7 +101,7 @@ function Home() {
             <p className="mb-0 fs-5 text-info" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Heyy, I am</p>
             <p className='fs-1 m-0' data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Haamid Raza Kazi</p>
             <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-4 m-0">A passionate Web Developer and a Final Year Computer Engineering Student who works in technologies like HTML, CSS, JavaScript, Bootstrap and MERN stack.</p>
-            <a href="https://drive.google.com/file/d/18FoOYhsXu9L2wS1b53_ZAk2_kqV7uW0A/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-4 mt-2 px-3 rounded-3" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My Resume/CV</button></a>
+            <a href="https://drive.google.com/file/d/1vYexW5HEWzyXKFaCKmdVfT68ai6nzsVt/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-4 mt-2 px-3 rounded-3" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My Resume/CV</button></a>
         </div>
     </div>
 
@@ -205,6 +206,13 @@ function Home() {
     <div className="row px-3 justify-content-evenly">
 
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+            <img src={webcode} alt="Webcode" className="img-fluid rounded-3 my-2 mb-3" />
+            <center><h4 className="mb-4">Webcode</h4></center>
+            <p className="par bg-scroll rounded-3 p-2">I created this online code editor with my team for my internship at Ceres Canopus Pvt Ltd as a Frontend Developer and a Team Leader. I used HTML, CSS, Javascript and Bootstrap to develop this website.</p>
+            <center><a href="https://webcode24.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-3 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+        </div>
+
+        <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
             <img src={hrkl} alt="HRK Library" className="img-fluid rounded-3 my-2 mb-3" />
             <center><h4 className="mb-4">HRK Library</h4></center>
             <p className="par bg-scroll rounded-3 p-2">I created this website for my internship at CodeAlpha as a Frontend Development Intern. I used HTML, CSS, Javascript and Bootstrap to develop this website.</p>
@@ -285,7 +293,7 @@ function Home() {
             <img src={recamovies} alt="Recamovies" className="img-fluid rounded-3 my-2 mb-3" />
             <center><h4 className="mb-4">Recamovies</h4></center>
             <p className="par bg-scroll rounded-3 p-2">I created this website as a mini project for my Software Engineering Subject in my College. This is a movie recommendation website. I made this using HTML, CSS, JavaScript and Bootstrap.</p>
-            <center><a href="https://recamovies.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-3 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+            <center><a href="https://recamovies.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-2 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
         </div>
 
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
@@ -306,7 +314,7 @@ function Home() {
             <img src={travebai} alt="Travebai" className="img-fluid rounded-3 my-2 mb-3" />
             <center><h4 className="mb-2">TraveBai</h4></center>
             <p className="par bg-scroll rounded-3 p-2">I created this website as an Internship Project at CodingWiz. Its a Tours and Travels Website. I used HTML, CSS, JavaScript and Bootstrap to create this website.</p>
-            <center><a href="https://travebai.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-4 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+            <center><a href="https://travebai.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-0 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
         </div>
 
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
@@ -345,10 +353,10 @@ function Home() {
         </div>
 
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
-            <img src={registform6} alt="Registerform" className="img-fluid rounded-3 my-2 mb-3" />
-            <center><h4 className="mb-2">Registration Form</h4></center>
+            <img src={registform6} alt="Registerform" className="img-fluid rounded-3 my-3 mb-4" />
+            <center><h4 className="mb-4">Registration Form</h4></center>
             <p className="par bg-scroll rounded-3 p-2">I created this registration form as my JS project for my Frontend development class. Its made from HTML, CSS and JavaScript.</p>
-            <center><a href="https://registra-form.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+            <center><a href="https://registra-form.vercel.app/" target="_blank" rel="noreferrer"><div className="btn mt-3 btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
         </div>
 
         <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
