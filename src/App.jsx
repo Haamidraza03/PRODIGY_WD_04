@@ -5,7 +5,6 @@ import 'aos/dist/aos.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from '../src/Pages/Home';
 import Contact from '../src/Pages/Contact';
-import Ads from './Ads.txt';
 
 function App() {
   useEffect(() => {
@@ -29,7 +28,6 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/contact' element={<Contact/>} />
-          <Route path='/ads.txt' element={<Ads/>} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
       </div>
