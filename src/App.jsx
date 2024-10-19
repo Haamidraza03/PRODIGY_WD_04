@@ -23,8 +23,15 @@ function App() {
     AOS.init({once:"true"});
   },[])
   return (
+    
     <BrowserRouter>
       <div className="App">
+      <html lang="en">
+      <head>
+        {ProcessingInstruction.env.NODE_ENV === "production" && (<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5065836333714009"
+     crossorigin="anonymous"></script>)}
+      </head>
+      </html>
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/contact' element={<Contact/>} />
