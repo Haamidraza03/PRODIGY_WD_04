@@ -47,9 +47,11 @@ import { FaJava } from "react-icons/fa6";
 import { FaPython } from "react-icons/fa6";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiFirebase } from "react-icons/si";
+import ScrollToTopButton from '../Components/ScrollToTopButton';
 
 
 function Home() {
+
     const experiences = [
         {
             companyName: 'Ceres Canopus Pvt Ltd',
@@ -87,6 +89,8 @@ function Home() {
             date: 'May 2023 - June 2023'
           }
       ];
+
+      
   return (
     <div>
         <Navbar/>
@@ -104,6 +108,8 @@ function Home() {
             <a href="https://drive.google.com/file/d/100Ftqxc5kYRpQNQTtaSrrfALvDhtMuqZ/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-4 mt-2 px-3 rounded-3" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My Resume/CV</button></a>
         </div>
     </div>
+
+    <ScrollToTopButton />
 
     {/* about me start */}
     <div className="row" id="about">
