@@ -15,6 +15,7 @@ const Timeline = ({ experiences }) => {
                 <p className='fs-4 m-0 text-info par'>{experience.title}</p>
                 <p className='par fs-5 px-1'>{experience.description1}</p>
                 <p className='par fs-5 px-1'>{experience.description2}</p>
+                <p className='par fs-5 px-1'>{experience.description3}</p>
                 <small className='fs-4 text-info' style={{textAlign:"justify"}}>{experience.date}</small>
               </div>
             </div>

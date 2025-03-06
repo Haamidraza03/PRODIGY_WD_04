@@ -54,6 +54,14 @@ function Home() {
 
     const experiences = [
         {
+            companyName: 'SDAC Infotech',
+            title: 'Software Development Intern',
+            description1: 'This was a three month onsite internship in which my team and I had to develop an real time project titled Import Export System, using Java Full Stack technologies like HTML, CSS, Bootstrap, J2SE, Servlet, JSP, MySQL and XML in Eclipse.',
+            description2: 'During this internship i was very well trained first in the above mentioned technologies and other skills like understanding SRS, Problem Solving, Apache Server Configuration, Software development Life Cycle, Web Architecture, MVC2, etc.',
+            description3:'The whole three months were very much insightful, and helped me in understanding the real IT industry scenario and stress, what we have to go through as we have to deal with that while making the project. Overall it was a reality check and Amazing Experience.',
+            date: 'December 2024 - February 2025'
+        },
+        {
             companyName: 'Ceres Canopus Pvt Ltd',
             title: 'Frontend Developer & Team Leader',
             description1: 'This was a one month online internship in which i had to develop an Online Code Editor while leading a team of three members, using frontend technologies like HTML, CSS, JavaScript and Bootstrap.',
