@@ -260,7 +260,7 @@ function Home() {
                                     <img src={hrknamehub} alt="HRK-NameHub" className="img-fluid rounded-3 my-4 mb-4" />
                                     <center><h4 className="mb-0 mt-2">HRK-NameHub</h4></center>
                                     <p className="par bg-scroll rounded-3 p-2">I created this Github Account Finder using name for practicing axios and explore github api. I used Vite, React and React-Bootstrap to develop this application.</p>
-                                    <center><a href="https://hrk-namehub.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+                                    <center><a href="https://hrk-namehub.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 mt-2 w-50 rounded-pill">Visit</div></a></center>
                                 </div>
 
                                 <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
