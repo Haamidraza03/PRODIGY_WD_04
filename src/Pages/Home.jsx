@@ -32,6 +32,7 @@ import jl from './images/htmlproject3.png';
 import mag from './images/myastheticgallery2.png';
 import mfp from './images/myfirstpage1.png';
 import bheek from './images/bheek.png';
+import hrknamehub from './images/hrknamehub.png';
 import Timeline from '../Components/Timeline';
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -223,27 +224,27 @@ function Home() {
 
                     <div className="row px-3 justify-content-center mb-4 mt-4">
                         <div className="col-md-12 text-center">
-                            <button className={`btn btn-outline-info mx-3 mb-2 px-4 py-1 rounded-pill ${activeTab === 'All' ? 'active' : ''}`}
+                            <button className={`btn btn-outline-info mx-3 mb-2 px-4 py-1 fs-5 rounded-pill ${activeTab === 'All' ? 'active' : ''}`}
                                 onClick={() => setActiveTab('All')}
                                 aria-selected={activeTab === 'All'}
                                 style={{ cursor: 'pointer' }}>All</button>
-                            <button className={`btn btn-outline-info mx-3 mb-2 px-4 py-1 rounded-pill ${activeTab === 'Internship' ? 'active' : ''}`}
+                            <button className={`btn btn-outline-info mx-3 mb-2 px-4 py-1 fs-5 rounded-pill ${activeTab === 'Internship' ? 'active' : ''}`}
                                 onClick={() => setActiveTab('Internship')}
                                 aria-selected={activeTab === 'Internship'}
                                 style={{ cursor: 'pointer' }}>Internship</button>
-                            <button className={`btn btn-outline-info mx-3 mb-2 px-4 py-1 rounded-pill ${activeTab === 'College' ? 'active' : ''}`}
+                            <button className={`btn btn-outline-info mx-3 mb-2 px-4 py-1 fs-5 rounded-pill ${activeTab === 'College' ? 'active' : ''}`}
                                 onClick={() => setActiveTab('College')}
                                 aria-selected={activeTab === 'College'}
                                 style={{ cursor: 'pointer' }}>College</button>
-                            <button className={`btn btn-outline-info mx-3 mb-2 px-4 py-1 rounded-pill ${activeTab === 'Hackathon' ? 'active' : ''}`}
+                            <button className={`btn btn-outline-info mx-3 mb-2 px-4 py-1 fs-5 rounded-pill ${activeTab === 'Hackathon' ? 'active' : ''}`}
                                 onClick={() => setActiveTab('Hackathon')}
                                 aria-selected={activeTab === 'Hackathon'}
                                 style={{ cursor: 'pointer' }}>Hackathon</button>
-                            <button className={`btn btn-outline-info mx-3 mb-2 px-4 py-1 rounded-pill ${activeTab === 'Freelance' ? 'active' : ''}`}
+                            <button className={`btn btn-outline-info mx-3 mb-2 px-4 py-1 fs-5 rounded-pill ${activeTab === 'Freelance' ? 'active' : ''}`}
                                 onClick={() => setActiveTab('Freelance')}
                                 aria-selected={activeTab === 'Freelance'}
                                 style={{ cursor: 'pointer' }}>Freelance</button>
-                            <button className={`btn btn-outline-info mx-3 mb-2 px-4 py-1 rounded-pill ${activeTab === 'Personal' ? 'active' : ''}`}
+                            <button className={`btn btn-outline-info mx-3 mb-2 px-4 py-1 fs-5 rounded-pill ${activeTab === 'Personal' ? 'active' : ''}`}
                                 onClick={() => setActiveTab('Personal')}
                                 aria-selected={activeTab === 'Personal'}
                                 style={{ cursor: 'pointer' }}>Personal</button>
@@ -255,6 +256,13 @@ function Home() {
 
                         {activeTab === 'All' && (
                             <>
+                                <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+                                    <img src={hrknamehub} alt="HRK-NameHub" className="img-fluid rounded-3 my-4 mb-4" />
+                                    <center><h4 className="mb-0 mt-2">HRK-NameHub</h4></center>
+                                    <p className="par bg-scroll rounded-3 p-2">I created this Github Account Finder using name for practicing axios and explore github api. I used Vite, React and React-Bootstrap to develop this application.</p>
+                                    <center><a href="https://hrk-namehub.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+                                </div>
+
                                 <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
                                     <img src={webcode} alt="Webcode" className="img-fluid rounded-3 my-2 mb-3" />
                                     <center><h4 className="mb-4">Webcode</h4></center>
@@ -396,10 +404,10 @@ function Home() {
                                 </div>
 
                                 <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
-                                    <img src={garamtara} alt="GaramTara+" className="img-fluid rounded-3 my-2 mb-4" />
-                                    <center><h4 className="mb-2">Garamtara+</h4></center>
-                                    <p className="par bg-scroll rounded-3 p-2">GaraTara+ is a HotStar Clone. I made this webpage as an Bootstrap Project for my Frontend development class.</p>
-                                    <center><a href="https://garamtara.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+                                    <img src={garamtara} alt="GaramTara+" className="img-fluid rounded-3 my-4 mb-4" />
+                                    <center><h4 className="mb-2 mt-2">Garamtara+</h4></center>
+                                    <p className="par bg-scroll rounded-3 p-2 mt-4">GaraTara+ is a HotStar Clone. I made this webpage as an Bootstrap Project for my Frontend development class.</p>
+                                    <center><a href="https://garamtara.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 mt-2 w-50 rounded-pill">Visit</div></a></center>
                                 </div>
 
                                 <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
@@ -590,6 +598,13 @@ function Home() {
 
                         {activeTab === 'Personal' && (
                             <>
+                                <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+                                    <img src={hrknamehub} alt="HRK-NameHub" className="img-fluid rounded-3 my-4 mb-4" />
+                                    <center><h4 className="mb-0 mt-2">HRK-NameHub</h4></center>
+                                    <p className="par bg-scroll rounded-3 p-2">I created this Github Account Finder using name for practicing axios and explore github api. I used Vite, React and React-Bootstrap to develop this application.</p>
+                                    <center><a href="https://hrk-namehub.vercel.app/" target="_blank" rel="noreferrer"><div className="btn btn-outline-info px-5 w-50 rounded-pill">Visit</div></a></center>
+                                </div>
+
                                 <div className="col-md-3 rounded-4 bg-black text-white py-3 my-2 mb-4 mx-2 px-3 shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
                                     <img src={bheek} alt="Bheek" className="img-fluid rounded-3 my-4 mb-4" />
                                     <center><h4 className="mb-0 mt-2">Bheek</h4></center>
