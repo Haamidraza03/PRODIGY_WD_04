@@ -113,7 +113,7 @@ function Home() {
             <p className="mb-0 fs-5 text-info" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Heyy, I am</p>
             <p className='fs-1 m-0' data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Haamid Raza Kazi</p>
             <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-4 m-0">A passionate Web Developer and a Final Year Computer Engineering Student who works in technologies like HTML, CSS, JavaScript, Bootstrap and MERN stack.</p>
-            <a href="https://drive.google.com/file/d/1ItyzByzD7jjOoZNkqbUBgVSFGtXiOP3G/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-4 mt-2 px-3 rounded-3" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My Resume</button></a>
+            <a href="https://drive.google.com/file/d/1MUsTF82aY0xFmCzhpTkyN5QDzTV09OE0/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-4 mt-2 px-3 rounded-3" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My Resume</button></a>
         </div>
     </div>
 
@@ -205,7 +205,7 @@ function Home() {
         <div className="col-md-3 row bg-black text-white rounded-4 shadow justify-content-around mb-4 py-2" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out">
             <img src={sjcem} alt="sjcem" className="img-fluid rounded-5 p-2 pt-5 mt-3 mb-3" />
             <div className="col-md-10"><h6>St. John College of Engineering and Management</h6><h6>Mumbai University</h6></div>
-            <div className="col-md-2"><h6>2021-2025</h6></div>
+            <div className="col-md-2"><h6>2021-2025</h6><h6>8.08</h6></div>
         </div>
     </div>
     {/* my education ends */}
