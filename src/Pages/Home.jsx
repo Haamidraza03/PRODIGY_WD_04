@@ -43,6 +43,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaReact } from "react-icons/fa6";
 import { DiNodejs } from "react-icons/di";
 import { SiMongodb } from "react-icons/si";
+import { SiSpringboot } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
 import c from './images/letter-c.png';
 import cpp from './images/c++.png';
 import { FaJava } from "react-icons/fa6";
@@ -116,7 +118,7 @@ function Home() {
                         <div className="col-md-5 text-white align-self-center">
                             <p className="mb-0 fs-5 text-info" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Heyy, I am</p>
                             <p className='fs-1 m-0' data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Haamid Raza Kazi</p>
-                            <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-4 m-0">A passionate Web Developer and a Final Year Computer Engineering Student who works in technologies like HTML, CSS, JavaScript, Bootstrap and MERN stack.</p>
+                            <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-4 m-0">A Computer Engineer and passionate Web Developer who works in technologies like HTML, CSS, JavaScript, Bootstrap, and MERN stack. Experienced in building responsive and user-friendly web applications.</p>
                             <a href="https://drive.google.com/file/d/1MUsTF82aY0xFmCzhpTkyN5QDzTV09OE0/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-4 mt-2 px-3 rounded-3" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My Resume</button></a>
                         </div>
                     </div>
@@ -134,18 +136,23 @@ function Home() {
 
                         <div className="col-md-6 bg-info py-3 rounded mx-1" data-aos="flip-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
                             <div className="row justify-content-center my-2 mx-0">
-                                <div className="col-md-10 bg-dark text-white px-2 rounded pt-2">
+                                <div className="col-md-10 bg-dark text-white px-2 rounded pt-2 my-2">
+                                    <h3><i className="bi bi-credit-card-2-front"></i> Full Stack Development</h3>
+                                    <p className="par p-2" style={{ fontSize: "18px" }}>Working with Full Stack technologies such as MongoDB, Express, React, Node, Java, Spring Boot, MySQL, Firebase. <br /> I take it as a challenge to successfully interact with backend and frontend when i dive into the world of developing full stack web applications, and the outcomes are very visually appealing with great Functionality.</p>
+                                </div>
+                                <div className="col-md-10 bg-dark text-white px-2 rounded pt-2 my-2">
                                     <h3><i className="bi bi-credit-card-2-front"></i> Frontend Development</h3>
-                                    <p className="par p-2" style={{ fontSize: "18px" }}>Working with frontend technologies such as HTML, CSS, Javascript, Bootstrap, Git, NodeJS, ReactJS, MERN. <br /> I become very creative when i dive into the world of developing website and web applications, and the outcomes are very visually appealing with great User Interface.</p>
+                                    <p className="par p-2" style={{ fontSize: "18px" }}>Working with frontend technologies such as HTML, CSS, Javascript, Bootstrap, Git, ReactJS. <br /> I become very creative when i dive into the world of developing website and web applications, and the outcomes are very visually appealing with great User Interface.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-md-5 py-3">
                             <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">What<span className="me"> I'm able</span> to do?</h2>
-                            <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-5">I can handle projects related to Frontend Development. If I talk about complexity of the project then it can range from easy to intermediate type of projects. </p>
+                            <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-5">I can handle projects related to Full Stack and Frontend Development. If I talk about the complexity of the projects, they can range from easy to intermediate levels. </p>
 
-                            <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-5">I have created some projects using technologies like HTML , CSS , Javascript , Bootstrap, NodeJS, ReactJS and MERN stack. Currently I'm nourishing my skills more in Full Stack Development.</p>
+                            <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-5">I have created some projects using technologies like HTML, CSS, JavaScript, Bootstrap, ReactJS, and the MERN stack. Additionally, I have worked with backend technologies such as Java, Spring Boot, MySQL, Hibernate, and JDBC, which has strengthened my understanding of server-side development.</p>
+                            <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-5">Currently, I’m nourishing my skills further in Full Stack Development while expanding my expertise in modern frameworks to build more efficient and scalable web applications.</p>
                             <a href="#projects"><div className="btn btn-outline-info fs-5 mb-3" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check my Projects</div></a>
                         </div>
                     </div>
@@ -172,8 +179,9 @@ function Home() {
                         <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out"><img src={c} className='img-fluid' width={45} alt="C" title='C' /><div className='fs-5'>C</div></div>
                         <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out"><img src={cpp} className='img-fluid' width={45} alt="C++" title='C++' /><div className='fs-5'>C++</div></div>
                         <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out"><FaJava className='text-warning fs-1' title='Java' /><div className='fs-5'>Java</div></div>
+                        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out"><SiSpringboot className='text-success fs-1' title='Java' /><div className='fs-5'>Spring Boot</div></div>
                         <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2700" data-aos-easing="ease-in-out"><FaPython className='text-primary fs-1' title='Python' /><div className='fs-5'>Python</div></div>
-                        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2900" data-aos-easing="ease-in-out"><BiLogoPostgresql className='text-secondary fs-1' title='SQL' /><div className='fs-5'>SQL</div></div>
+                        <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2900" data-aos-easing="ease-in-out"><GrMysql className='text-info fs-1' title='SQL' /><div className='fs-5'>MySQL</div></div>
                     </div>
                     {/* skills ends  */}
 
