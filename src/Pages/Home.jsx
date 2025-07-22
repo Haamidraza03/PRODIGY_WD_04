@@ -60,7 +60,7 @@ function Home() {
         {
             companyName: 'Tax-O-Smart LLP',
             title: 'Java Developer',
-    description1: 'This was my first paid internship. I did this internship for one month where I contributed in converting an AngularJS application to a ReactJS application with great user interface and functionality, where I added dynamic featured components for better code reusability and maintainability.',
+            description1: 'This was my first paid internship. I did this internship for one month where I contributed in converting an AngularJS application to a ReactJS application with great user interface and functionality, where I added dynamic featured components for better code reusability and maintainability.',
             description2: 'During this internship I learned how to debug using firefox developer tools, some git commands and logically using JavaScript to create dynamic and logical components.',
             description3: 'It was a great experience and exposure to real world company exxperience and work culture. I learned a lot from my mentor and the team, and it was a great start to my career as a developer.',
             date: 'June 2025'
@@ -127,7 +127,7 @@ function Home() {
                             <p className="mb-0 fs-5 text-info" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Heyy, I am</p>
                             <p className='fs-1 m-0' data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Haamid Raza Kazi</p>
                             <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-4 m-0">A Computer Engineer and passionate Web Developer who works in technologies like HTML, CSS, JavaScript, Bootstrap, and MERN stack. Experienced in building responsive and user-friendly web applications.</p>
-                            <a href="https://drive.google.com/file/d/1JXFxLNgJzQv_opkVoo5md2cwXEj-iqeI/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-4 mt-2 px-3 rounded-3" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My Resume</button></a>
+                            <a href="https://drive.google.com/file/d/1qWg71rivekP7mEdpW5ndO_8aWD-pQJxY/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-4 mt-2 px-3 rounded-3" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My Resume</button></a>
                         </div>
                     </div>
 
