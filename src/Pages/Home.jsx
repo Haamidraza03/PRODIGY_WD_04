@@ -127,7 +127,7 @@ function Home() {
                             <p className="mb-0 fs-5 text-info" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Heyy, I am</p>
                             <p className='fs-1 m-0' data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Haamid Raza Kazi</p>
                             <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" className="par fs-4 m-0">A Computer Engineer and passionate Web Developer who works in technologies like HTML, CSS, JavaScript, Bootstrap, and MERN stack. Experienced in building responsive and user-friendly web applications.</p>
-                            <a href="https://drive.google.com/file/d/1-vK_PVPxzGhPqkZN3eBlkmn9RJs5V8Jj/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-4 mt-2 px-3 rounded-3" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My Resume</button></a>
+                            <a href="https://drive.google.com/file/d/1nfXyP7ATF_mKkAIIVTjzvpy5braMprvL/view?usp=sharing" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-info fs-4 mt-2 px-3 rounded-3" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Check My Resume</button></a>
                         </div>
                     </div>
 
